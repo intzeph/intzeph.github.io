@@ -1,0 +1,51 @@
+
+.banner{
+    position: relative;
+    padding-top: 200px;
+	padding-bottom: 100px;
+    height: 150vh;
+    position: relative;
+    background: url(../resources/bg.svg);
+    overflow: hidden;
+    background-size: cover;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #09011D; // set the color of the overlay element
+        opacity: 0.7; // set the opacity level of the overlay element
+    }
+    .inside-con{
+        border:5px solid yellow;
+        height: 100%;
+    }
+    .nft{
+        width:35vw ;
+        position: absolute;
+        top: 5;
+		right: 0;
+        margin-right: 50px;
+			
+    }
+    .banner-image{
+        border: 2px solid white;
+    }
+
+    .wave{
+        padding: 0;
+        margin:0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+}
+
+.sec_2{
+    background: linear-gradient(180deg, rgb(44,41,70) 0%, rgba(1,1,35,1) 34%, rgba(76,1,84,1) 69%, rgba(22,0,84,1,) 100%);
+    height: 300vh;
+    
+}

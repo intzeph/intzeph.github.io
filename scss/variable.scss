@@ -1,0 +1,30 @@
+//font
+$font: 'Ubuntu', sans-serif;
+
+//colors
+$body-color:		 #e2e2e2;
+$primary:			 #5974e8;
+$secondary:			 #46b7f3;
+$white:			     #ffffff;
+$dark: 				 #03091f;
+$dark-2: 			 #030716; 	
+$dark-3: 			 #0b1126;
+$black:  			 #000000;
+$red:  			   #ff0000;
+$border-color:       #2493f5;
+
+// For button and input border radius
+$rounded-circle: 50px;
+$border-radius: 6px;
+$border-radius-md: 15px;
+$border-radius-top: 6px 6px 0px 0px;
+$border-radius-bottom: 0px 0px 6px 6px;
+
+// box-shadow
+$box-shadow:	  0px 5px 15px 0px rgba($white, .05);
+
+$small-mobile  :480px;
+$mobile  : 576px;
+$tablet  : 768px;
+$laptop  : 992px;
+$desktop : 1200px;

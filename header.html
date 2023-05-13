@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/header.css">
+    <link rel="stylesheet" href="dist/body.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body style="height: 300vh ">
+
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="resources/tothemoon_logo.svg" alt="" class="im-fluid">
+                </a>
+                <form class=" search-form">
+                    <input class="form-control me-2" type="search" placeholder="Search items and collections..." aria-label="Search">
+                    <a href="" class="search-icon"><i class="uil uil-search"></i></a>
+                </form>
+                <button class="navbar-toggler collapsed navbar_tggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href=""><img src="resources/home_icon.svg"  class="menu_icon" alt=""></a>
+                            <a class="nav-link active cMenu " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href=""><img src="resources/explore_icon.svg"  class="menu_icon" alt=""></a>
+                            <a class="nav-link cMenu " href="#">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href=""><img src="resources/community_icon.svg"  class="menu_icon" alt=""></a>
+                            <a class="nav-link cMenu " href="#">Community</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href=""><img src="resources/stats_icons.svg"  class="menu_icon" alt=""></a>
+                            <a class="nav-link cMenu" href="#">Stats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href=""><img src="resources/about_icon.svg"  class="menu_icon" alt=""></a>
+                            <a class="nav-link cMenu " href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-primary text-truncate" aria-current="page">Connect Wallet</a>
+                        </li>
+                       
+                        
+                        <li class="nav-item dropdown dd_1">
+                            <a class="nav-link dropdown-toggle dropdowntoggle_1 user" href="#" id="navbarDropdown" role="button"  aria-expanded="false">
+                                <img src="resources/profile1.svg " class="profile_pcs" alt="user">
+                            </a>
+                            <ul class="dropdown-menu drpmenu_1" aria-labelledby="navbarDropdown">
+                                <li class="drplist_1" >
+                                    <div class="drpdown_menu_profile">
+                                        <img src="resources/profile_icon.svg" alt="">
+                                        <a href="" class="dropdown-item drpdwn__menu">Profile</a>
+                                    </div>
+                                </li>
+                                <li class="drplist_1" >
+                                    <div>
+                                        <img src="resources/create_icon.svg" alt="">
+                                        <a href="" class="dropdown-item drpdwn__menu">Create</a>
+                                    </div>
+                                
+                                </li>
+                                <li class="drplist_1">
+                                    <div>
+                                        <img src="resources/inventory_icon.svg" alt="">
+                                        <a href="" class="dropdown-item drpdwn__menu">Inventory</a>
+                                    </div>
+                                    
+                                </li>
+                                <li class="drplist_1">
+                                    <div>
+                                        <img src="resources/history_icon2.svg" alt="">
+                                        <a href="" class="dropdown-item drpdwn__menu">History</a>
+                                    </div>
+                                    
+                                </li>
+                                <li class="drplist_1">
+                                    <div>
+                                        <img src="resources/stats_icon2.svg" alt="">
+                                        <a href="" class="dropdown-item drpdwn__menu">Stats</a>
+                                    </div>
+                                
+                                </li>
+                                <li class="drplist_1">
+                                    <div>
+                                        <img src="resources/wallet_icon.svg" alt="">
+                                        <a href="" class="dropdown-item drpdwn__menu">Wallet</a>
+                                    </div>
+                                    
+                                </li>
+                                <li class="drplist_1">
+                                    <div>
+                                        <img src="resources/cart_icon2.svg" alt="">
+                                        <a href="" class="dropdown-item drpdwn__menu">Cart</a>
+                                    </div>
+                                    
+                                </li>
+                                <li class="drplist_1">
+                                    <div>
+                                        <img src="resources/register_icon2.svg" alt="">
+                                        <a href="" class="dropdown-item drpdwn__menu">Register</a>
+                                    </div>
+                                </li>
+                                <li class="drplist_1">
+                                    <div>
+                                        <img src="resources/logout_icon.svg" alt="">
+                                        <a href="" class="dropdown-item drpdwn__menu">Logout</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-item dropdown dd_2">
+                    <a class="nav-link dropdown-toggle dropdowntoggle_2 user_2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="resources/profile1.svg " class="profile_pcs" alt="user">
+                    </a>
+                    <ul class="dropdown-menu drpmenu_2 " aria-labelledby="navbarDropdown">
+                        <li class="drplist_2" >
+                            <div class="drpdown_menu_profile">
+                                <img src="resources/profile_icon.svg" alt="">
+                                <a href="" class="dropdown-item drpdwn__menu">Profile</a>
+                            </div>
+                        </li>
+                        <li class="drplist_2" >
+                            <div>
+                                <img src="resources/create_icon.svg" alt="">
+                                <a href="" class="dropdown-item drpdwn__menu">Create</a>
+                            </div>
+                        
+                        </li>
+                        <li class="drplist_2">
+                            <div>
+                                <img src="resources/inventory_icon.svg" alt="">
+                                <a href="" class="dropdown-item drpdwn__menu">Inventory</a>
+                            </div>
+                            
+                        </li>
+                        <li class="drplist_2">
+                            <div>
+                                <img src="resources/history_icon2.svg" alt="">
+                                <a href="" class="dropdown-item drpdwn__menu">History</a>
+                            </div>
+                            
+                        </li>
+                        <li class="drplist_2">
+                            <div>
+                                <img src="resources/wallet_icon.svg" alt="">
+                                <a href="" class="dropdown-item drpdwn__menu">Wallet</a>
+                            </div>
+                            
+                        </li>
+                        <li class="drplist_2">
+                            <div>
+                                <img src="resources/cart_icon2.svg" alt="">
+                                <a href="" class="dropdown-item drpdwn__menu">Cart</a>
+                            </div>
+                            
+                        </li>
+                        <li class="drplist_2">
+                            <div>
+                                <img src="resources/register_icon2.svg" alt="">
+                                <a href="" class="dropdown-item drpdwn__menu">Register</a>
+                            </div>
+                        </li>
+                        <li class="drplist_2">
+                            <div>
+                                <img src="resources/logout_icon.svg" alt="">
+                                <a href="" class="dropdown-item drpdwn__menu">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--  
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="" class="navbar-brand col-2">
+                    <img src="resources/tothemoon_logo.svg" alt="" class="im-fluid">
+                </a>
+                <form action="" class="search-form col-4">
+                    <input type="search" class="form-control" placeholder="Search items, collections and accounts" aria-label="Search">
+                    <a href="" class="search-icon"><i class="uil uil-search"></i></a>
+                </form>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent" style="border: 2px solid blue;">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link menu-txt active cMenu" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link cMenu" href="#">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link cMenu" href="#">Community</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link cMenu" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link cMenu" href="#">About</a>
+                        </li>
+                    </ul>
+                    <div class="navbar add-listing navbar-expand-lg">
+                        <a href="#" class="btn btn-primary text-truncate"" aria-current="page">Connect Wallet</a>
+                        <ul class="navbar-nav nav-user">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle user" href="#" id="navbarDropdown5" role="button"  aria-expanded="false">
+                                    <img src="resources/profile1.svg " alt="user">
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <div>
+                                            <img src="resources/profile_icon.svg" alt="">
+                                            <a href="" class="dropdown-item drpdwn__menu">Profile</a>
+                                        </div>
+                                       
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="resources/create_icon.svg" alt="">
+                                            <a href="" class="dropdown-item drpdwn__menu">Create</a>
+                                        </div>
+                                       
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="resources/inventory_icon.svg" alt="">
+                                            <a href="" class="dropdown-item drpdwn__menu">Inventory</a>
+                                        </div>
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="resources/history_icon2.svg" alt="">
+                                            <a href="" class="dropdown-item drpdwn__menu">History</a>
+                                        </div>
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="resources/stats_icon2.svg" alt="">
+                                            <a href="" class="dropdown-item drpdwn__menu">Stats</a>
+                                        </div>
+                                       
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="resources/wallet_icon.svg" alt="">
+                                            <a href="" class="dropdown-item drpdwn__menu">Wallet</a>
+                                        </div>
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="resources/cart_icon2.svg" alt="">
+                                            <a href="" class="dropdown-item drpdwn__menu">Cart</a>
+                                        </div>
+                                        
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="resources/register_icon2.svg" alt="">
+                                            <a href="" class="dropdown-item drpdwn__menu">Register</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="resources/logout_icon.svg" alt="">
+                                            <a href="" class="dropdown-item drpdwn__menu">Logout</a>
+                                        </div>
+                                       
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+            
+            </div>
+        </nav>
+    </header>
+
+    -->
+
+    <!--page-->
+    <section class="banner">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2C2946" fill-opacity="1" d="M0,160L60,170.7C120,181,240,203,360,202.7C480,203,600,
+            181,720,170.7C840,160,960,160,1080,170.7C1200,181,1320,203,1380,213.3L1440,224L1440,320L1380,320C1320,320,
+            1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+        </svg>
+        <div class="container">
+                
+                    
+                        <img src="resources/nft.svg" alt="" class="img-fluid nft">
+
+        </div>
+    </section>
+
+    <section class="sec_2">
+    </section>
+    
+
+
+
+</body>
+
+<script src=""></script>
+</html>
